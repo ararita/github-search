@@ -200,8 +200,6 @@ function renderReposSection() {
     stars = repo.stargazers_count;
     forks = repo.forks_count;
     permissions = repo.permissions;
-    // websiteEl.href = usersUrl;
-    // websiteEl.textContent = usersUrl;
     repoDisplayName.href = repoUrl;
     repoDisplayName.textContent = repoName;
     repoDisplayYears.textContent = repoYearFrom + " - " + repoYearTo;
