@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7f6f5;
+  color: #4c575d;
+  margin: 0;
+  width: 100%;
+}
+
+#container {
+  display: none;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+a {
+  color: #e91e50;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+#form {
+  background-color: white;
+  padding: 3rem 5rem 3rem 5rem;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.253);
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  width: 93%;
+}
+
+#form h3 {
+  margin-top: 5px;
+}
+
+.input-wrapper {
+  display: flex;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 25px;
+  outline: none;
+  width: 100%;
+}
+
+::placeholder {
+  color: rgb(233, 227, 227);
+}
+
+button {
+  background-color: #e91e50;
+  color: white;
+  height: 2rem;
+  width: 13rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 500px;
+  align-items: center;
+  padding-top: 3px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+#info {
+  background-color: white;
+  margin: 0 auto;
+  padding: 1rem 5rem;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.15);
+  width: 80%;
+}
+
+#intro-section h2 {
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+}
+
+#intro-section p {
+  padding-top: 2rem;
+}
+
+#bio {
+  margin-top: 3px;
+  font-size: 1rem;
+  color: #a09d9b;
+}
+
+#web {
+  margin-bottom: 1.7rem;
+  color: #e91e50;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#languages-section {
+  margin-top: 3.5rem;
+}
+
+#languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+#languages-list li {
+  width: calc(100% / 4 - 5px);
+  margin-right: 5px;
+}
+
+#repos-section {
+  margin-top: 3.5rem;
+}
+
+.display-years {
+  color: #888785;
+}
+
+.repo-name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.permission-list {
+  display: flex;
+}
+
+.permission-list li {
+  margin-right: 5px;
+}
+.repo-lang-container {
+  display: flex;
+  color: #a09d9b;
+}
+
+.repo-lang-container ul {
+  font-size: 18px;
+}
+
+.repo-lang-container h5 {
+  margin: 0 10px 0 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.separator {
+  margin-right: 10px;
+}
+
+.repos-list-item {
+  border-bottom: solid 0.01em #292d2edf;
+}
